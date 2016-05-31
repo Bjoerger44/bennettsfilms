@@ -1,3 +1,35 @@
+
 body {
-  background-color: blue;
+  background-image: url("moviepic.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: grey;
+  align-items: center;
+
+  height: 150px;
+  width: 200px;
+}
+.description {
+  flex-direction: column;
+  justify-content: center;
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
