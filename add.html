@@ -14,17 +14,22 @@
   <body>
     <h1>Galvanize Films</h1>
     <form class"addmovie">
-      <label>Title</label><br>
-      <input type="text" /><br>
-      <textarea name="name" rows="1" cols="4"></textarea><br>
-      <label>Genre</label><br>
-      <input type="text"/><br>
-      <label>Rating</label><br>
-      <select class="ratings" name=""><br>
+      <label for="title">Title</label><br>
+      <input type="text" id="title" /><br>
+      <label for="genre">Genre</label><br>
+      <input type="text" id="genre"/><br>
+      <label for="description">Description</label><br>
+      <input type="text" id="description"/><br>
+      <label for="coverPicture">Cover Picture</label><br>
+      <input type="text" id="coverPicture"/><br>
+      <label for="rating">Rating</label><br>
+      <select id="rating">
+        <option>G</option>
         <option>PG</option>
         <option>PG-13</option>
         <option>R</option>
-      </select><br>
+        <option>NC-17</option>
+      </select><br><br>
       <input type="submit" name="mysubmit" value="submit" />
 
     </form>

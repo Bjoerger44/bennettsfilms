@@ -1,5 +1,4 @@
 $(document).ready(function (){
-  console.log("Sanity check")
   $('form').on('submit', function(event){
     event.preventDefault();
     var movieName = $('#moviesearch').val();
@@ -8,8 +7,6 @@ $(document).ready(function (){
         for (var i = 0; i < results.length; i++){
           $('.shit').html('<p>'+ results[i].overview + '</p>')
         }
-  })
-})
-
-
+      })
+    })
 });
